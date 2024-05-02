@@ -12,6 +12,8 @@
 	</Item>
 	<Item Name="private" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		<Item Name="Get log paths.vi" Type="VI" URL="../Get log paths.vi"/>
+		<Item Name="Write to DB.vi" Type="VI" URL="../Write to DB.vi"/>
 		<Item Name="Initialize Serial.vi" Type="VI" URL="../Initialize Serial.vi"/>
 		<Item Name="Read Serial.vi" Type="VI" URL="../Read Serial.vi"/>
 		<Item Name="Close Serial.vi" Type="VI" URL="../Close Serial.vi"/>
@@ -26,14 +28,17 @@
 		<Item Name="Parse Emission Current.vi" Type="VI" URL="../Parse Emission Current.vi"/>
 		<Item Name="Parse Relay.vi" Type="VI" URL="../Parse Relay.vi"/>
 		<Item Name="Parse Status.vi" Type="VI" URL="../Parse Status.vi"/>
-		<Item Name="Parse Checksum.vi" Type="VI" URL="../Parse Checksum.vi"/>
 		<Item Name="Parse Trip Association.vi" Type="VI" URL="../Parse Trip Association.vi"/>
+		<Item Name="Parse Checksum.vi" Type="VI" URL="../Parse Checksum.vi"/>
+		<Item Name="Validate Checksum.vi" Type="VI" URL="../Validate Checksum.vi"/>
 	</Item>
-	<Item Name="AML Error Control.vi" Type="VI" URL="../AML Error Control.vi"/>
-	<Item Name="Check Serial data.vi" Type="VI" URL="../Check Serial data.vi"/>
-	<Item Name="Get paths from Com number.vi" Type="VI" URL="../Get paths from Com number.vi"/>
-	<Item Name="Serial tester.vi" Type="VI" URL="../Serial tester.vi"/>
-	<Item Name="Serial Write to DB.vi" Type="VI" URL="../Serial Write to DB.vi"/>
-	<Item Name="Serial.AML3.vi" Type="VI" URL="../Serial.AML3.vi"/>
-	<Item Name="Validate Checksum.vi" Type="VI" URL="../Validate Checksum.vi"/>
+	<Item Name="unused" Type="Folder">
+		<Item Name="AML Error Control.vi" Type="VI" URL="../AML Error Control.vi"/>
+		<Item Name="Check Serial data.vi" Type="VI" URL="../Check Serial data.vi"/>
+	</Item>
+	<Item Name="tests" Type="Folder">
+		<Item Name="Test Serial Read.vi" Type="VI" URL="../Test Serial Read.vi"/>
+		<Item Name="Test Parser.vi" Type="VI" URL="../Test Parser.vi"/>
+	</Item>
+	<Item Name="process.vi" Type="VI" URL="../process.vi"/>
 </Library>
